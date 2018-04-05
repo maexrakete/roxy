@@ -1,0 +1,12 @@
+[package]
+name = "roxy"
+version = "0.1.0"
+authors = ["Max Kiehnscherf <max.kiehnscherf@gmail.com>"]
+
+[dependencies]
+futures = "0.1.14"
+hyper = "0.11.2"
+
+[[bin]]
+name = "roxy"
+path = "src/main.rs"
